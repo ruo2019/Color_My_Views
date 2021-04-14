@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             R.id.box_three_text -> view.setBackgroundColor(Color.rgb(245, 212, 0))
             R.id.box_four_text -> view.setBackgroundColor(Color.GREEN)
             R.id.box_five_text -> view.setBackgroundColor(Color.BLUE)
-            R.id.box_six_text -> view.setBackgroundColor(Color.rgb(183, 0, 255))
+            R.id.box_six_text -> view.setBackgroundColor(Color.rgb(60, 20, 80))
             R.id.box_seven_text -> view.setBackgroundColor(Color.MAGENTA)
             R.id.box_eight_text -> view.setBackgroundColor(Color.rgb(0, 227, 45))
             R.id.box_nine_text -> view.setBackgroundColor(Color.rgb(0, 166, 255))
