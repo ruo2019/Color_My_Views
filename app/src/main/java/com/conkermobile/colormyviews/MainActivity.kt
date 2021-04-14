@@ -16,14 +16,14 @@ class MainActivity : AppCompatActivity() {
     private fun makeColored(view: View) {
         when (view.id) {
             R.id.box_one_text -> view.setBackgroundResource(R.drawable.image)
-            R.id.box_two_text -> view.setBackgroundColor(Color.rgb(247, 112, 27))
-            R.id.box_three_text -> view.setBackgroundColor(Color.YELLOW)
-            R.id.box_four_text -> view.setBackgroundColor(Color.GREEN)
-            R.id.box_five_text -> view.setBackgroundColor(Color.BLUE)
-            R.id.box_six_text -> view.setBackgroundColor(Color.rgb(183, 0, 255))
-            R.id.box_seven_text -> view.setBackgroundColor(Color.MAGENTA)
-            R.id.box_eight_text -> view.setBackgroundColor(Color.rgb(153, 50, 204))
-            R.id.box_nine_text -> view.setBackgroundColor(Color.rgb(0, 166, 255))
+            R.id.box_two_text -> view.setBackgroundResource(R.drawable.image)
+            R.id.box_three_text -> view.setBackgroundResource(R.drawable.image)
+            R.id.box_four_text -> view.setBackgroundResource(R.drawable.image)
+            R.id.box_five_text -> view.setBackgroundResource(R.drawable.image)
+            R.id.box_six_text -> view.setBackgroundResource(R.drawable.image)
+            R.id.box_seven_text -> view.setBackgroundResource(R.drawable.image)
+            R.id.box_eight_text -> view.setBackgroundResource(R.drawable.image)
+            R.id.box_nine_text -> view.setBackgroundResource(R.drawable.image)
             else -> view.setBackgroundColor(Color.LTGRAY)
         }
     }
