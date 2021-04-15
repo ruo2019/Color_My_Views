@@ -33,7 +33,8 @@ class MainActivity : AppCompatActivity() {
                         findViewById(R.id.box_nine_text), findViewById(R.id.box_ten_text),
                         findViewById(R.id.box_eleven_text), findViewById(R.id.box_twelve_text),
                         findViewById(R.id.box_thirteen_text), findViewById(R.id.box_fourteen_text),
-                        findViewById(R.id.box_fifteen_text), findViewById(R.id.box_sixteen_text),)
+                        findViewById(R.id.box_fifteen_text), findViewById(R.id.box_sixteen_text),
+                        findViewById(R.id.box_seventeen_text))
 
         for (item in clickableViews) {
             item.setOnClickListener { makeColored(it) }
