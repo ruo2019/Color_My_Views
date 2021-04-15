@@ -1,17 +1,22 @@
 <resources>
     <string name="app_name">ColorMyViews</string>
-    <string name="box_one">Box One</string>
-    <string name="box_two">Box Two</string>
-    <string name="box_three">Box Three</string>
-    <string name="box_four">Box Four</string>
-    <string name="box_five">Box Five</string>
-    <string name="box_six">Box Six</string>
-    <string name="box_seven">Box Seven</string>
-    <string name="box_eight">Box Eight</string>
-    <string name="box_nine">Box Nine</string>
+    <string name="box_one">Box 1</string>
+    <string name="box_two">Box 2</string>
+    <string name="box_three">Box 3</string>
+    <string name="box_four">Box 4</string>
+    <string name="box_five">Box 5</string>
+    <string name="box_six">Box 6</string>
+    <string name="box_seven">Box 7</string>
+    <string name="box_eight">Box 8</string>
+    <string name="box_nine">Box 9</string>
     <string name="how_to_play" >How to play:</string>
     <string name="tap_the_boxes_and_buttons">Try to find the buttons without tapping anything else.</string>
-    <string name="button_red">RED</string>
-    <string name="button_yellow">YELLOW</string>
-    <string name="button_green">GREEN</string>
+    <string name="box_sixteen">Box 16</string>
+    <string name="box_ten">Box 10</string>
+    <string name="box_eleven">Box 11</string>
+    <string name="box_twelve">Box 12</string>
+    <string name="box_fourteen">Box 14</string>
+    <string name="box_fifteen">Box 15</string>
+    <string name="box_thirteen">Box 13</string>
+    <string name="box_seventeen">Box 17</string>
 </resources>
