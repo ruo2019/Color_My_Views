@@ -3,6 +3,7 @@ package com.conkermobile.colormyviews
 import android.graphics.Color
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
@@ -38,9 +39,12 @@ class MainActivity : AppCompatActivity() {
         val boxSevenText = findViewById<TextView>(R.id.box_seven_text)
         val boxEightText = findViewById<TextView>(R.id.box_eight_text)
         val boxNineText = findViewById<TextView>(R.id.box_nine_text)
+        val redButton = findViewById<Button>(R.id.red_button)
+        val yellowButton = findViewById<Button>(R.id.yellow_button)
+        val greenButton = findViewById<Button>(R.id.green_button)
 
         val rootConstraintLayout = findViewById<View>(R.id.constraint_layout)
-        val clickableViews: List<View> = listOf(boxOneText, boxTwoText, boxThreeText, boxFourText, boxFiveText, boxSixText, boxSevenText, boxEightText, boxNineText, rootConstraintLayout)
+        val clickableViews: List<View> = listOf(boxOneText, boxTwoText, boxThreeText, boxFourText, boxFiveText, boxSixText, boxSevenText, boxEightText, boxNineText, redButton, yellowButton, greenButton, rootConstraintLayout)
         for (item in clickableViews) {
             item.setOnClickListener{ makeColored(it) }
         }
