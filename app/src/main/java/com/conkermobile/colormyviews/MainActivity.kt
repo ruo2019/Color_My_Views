@@ -25,6 +25,9 @@ class MainActivity : AppCompatActivity() {
             R.id.box_seven_text -> view.setBackgroundResource(R.drawable.image)
             R.id.box_eight_text -> view.setBackgroundResource(R.drawable.image)
             R.id.box_nine_text -> view.setBackgroundResource(R.drawable.image)
+            R.id.red_button -> view.setBackgroundResource(R.color.my_red)
+            R.id.yellow_button -> view.setBackgroundResource(R.color.my_yellow)
+            R.id.green_button -> view.setBackgroundResource(R.color.my_green)
             else -> view.setBackgroundColor(Color.LTGRAY)
         }
     }

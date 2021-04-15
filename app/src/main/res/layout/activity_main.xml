@@ -146,7 +146,6 @@
         android:layout_marginBottom="52dp"
         android:fontFamily="@font/press_start_2p"
         android:text="@string/tap_the_boxes_and_buttons"
-        android:flow_verticalBias="0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -177,7 +176,6 @@
         app:layout_constraintEnd_toStartOf="@+id/green_button"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/red_button"
-        android:app.layout_constraintVertical_bias="1.0"
         app:layout_constraintTop_toBottomOf="@+id/info_text" />
 
     <Button
